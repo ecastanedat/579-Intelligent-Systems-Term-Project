@@ -1,0 +1,57 @@
+== Project Description
+
+This application template showcases our UI framework for applications with graphical user interfaces. We use this template as a container which loads the project-specific DQMH modules dynamically from a configuration file.
+
+=== UI Framework
+
+The UI framework helps us with:
+
+* reusing UI management code
+* project-specific UI layouts
+* displaying a fancy splash screen
+* populating the Runtime Menu dynamically
+* populating a navigation module dynamically
+* generating an event log for debugging
+
+…and much more!
+
+The UI framework is built on top of the HSE Libraries and consists of a collection of DQMH modules and a few helper VIs.
+
+==== Framework Modules
+
+These DQMH modules are designed to be reused, hence they are generic and not part of the project-specific code of an application:
+
+* Event Manager
+* UI Manager
+* Navigation
+
+==== Framework VIs
+
+In order to dynamically load DQMH modules and to achieve some of the UI framework functionality, the following VIs are part of the framework, too:
+
+===== Startup VI
+
+The /startup.vi is used to run the application. It…
+
+* shows a splash screen
+* reads the main configuration (containing the list of modules to load)
+* loads the UI Manager and the Event Manager modules
+* loads a list of project modules (no static linkage)
+* calls the “configure” requests of all the modules
+* displays the front panel of the UI Manager module
+
+===== Project VIs
+
+These are project-related or project-specific VIs that are supplied by the UI Framework but can or have to be modified for each project.
+
+* /Project/Project.lvlib: Contains the project-specific VIs
+* /Project/PROJECT_InitLogging.vi: Starts the hse-logger
+* /Project/PROJECT_Name–constant.vi: Name of the project
+* /Project/PROJECT_RunTimeMenu.rtm: Run-Time Menu for the application
+* /Project/PROJECT_SplashScreen.vi: Splash Screen
+* /Project/PROJECT_StartupSteps.ctl: List of steps for the startup.vi to execute
+* /Project/PROJECT_UserCredentials.vi: List of users for the built-in login feature
+
+=== Project-Specific DQMH Modules
+
+In order for DQMH modules to be compatible with our application template, these modules need to implement our HSE DQMH flavour.

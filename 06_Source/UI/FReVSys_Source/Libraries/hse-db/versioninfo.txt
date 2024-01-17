@@ -1,0 +1,42 @@
+====================================================
+hse-db.lvproj
+====================================================
+
+HAMPEL SOFTWARE ENGINEERING
+www.hampel-soft.com
+
+----------------------------------------------------
+Release Version: 1.4.0.136
+Git RelTag: v1.4.0
+Git Commit: 07aea2170c1b2f3aca76949dc893f423f27210cb
+----------------------------------------------------
+Build Spec: distribution
+Build Trgt: My Computer
+Build Time: 2023-12-19 09:52
+----------------------------------------------------
+LabVIEW:    2020 (20.0.1f1)
+OpSystem:   Windows 10 Enterprise 
+OS Build:   19045
+----------------------------------------------------
+
+
+====================================================
+Release Notes
+====================================================
+
+[IMPORTANT] update to LV2020
+[FEATURE] provide methods for 1D Col (issue #20)
+[FEATURE] provide method which outputs error during initialization (issue #19)
+[FEATURE] add Configured and Connected Broadcast (issue #19)
+[IMPROVEMENT] update to DQMH 7
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Built with HSE's Release Automation Tools (v4.1.0)!
+Visit rat.hampel-soft.com for more info on CI/CD...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            HAMPEL SOFTWARE ENGINEERING
+         Create Better NI LabVIEW Software!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

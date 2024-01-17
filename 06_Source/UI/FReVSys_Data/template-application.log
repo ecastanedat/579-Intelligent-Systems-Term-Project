@@ -1,0 +1,72 @@
+2024-01-17 17:59:46.693 - INFO     - Starting FReVSys unreleased (Framework v1.2.0; HSE Libs v3.8.0) - startup.vi - 0 - 
+2024-01-17 17:59:50.068 - DEBUG    - Loading Event Manager... - startup.vi - 0 - 
+2024-01-17 17:59:51.196 - INFO     - Module UI Manager initialised - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1E20009A->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 17:59:51.207 - DEBUG    - Loading UI Manager... - startup.vi - 0 - 
+2024-01-17 17:59:55.438 - DEBUG    - Loading "Navigation"... - startup.vi - 0 - 
+2024-01-17 17:59:55.440 - INFO     - Module Event Manager initialised - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D900029->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:00:00.654 - DEBUG    - Loading "Dummy"... - startup.vi - 0 - 
+2024-01-17 18:00:02.879 - DEBUG    - Loading "ActorModule"... - startup.vi - 0 - 
+2024-01-17 18:00:05.207 - INFO     - Module StateMachine started. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F90008A->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:05.220 - DEBUG    - Loading "StateMachine"... - startup.vi - 0 - 
+2024-01-17 18:00:16.000 - INFO     - Module DBModule started. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1FD00087->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:16.023 - DEBUG    - Loading "DBModule"... - startup.vi - 0 - 
+2024-01-17 18:00:16.634 - DEBUG    - Setting Modules in UI Manager... - startup.vi - 0 - 
+2024-01-17 18:00:16.884 - DEBUG    - Setting Modules in Event Manager... - startup.vi - 0 - 
+2024-01-17 18:00:16.955 - DEBUG    - Loading Menu... - startup.vi - 0 - 
+2024-01-17 18:00:17.075 - INFO     - Module Event Manager configured. - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D900029->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:00:17.080 - DEBUG    - Configure statically loaded modules... - startup.vi - 0 - 
+2024-01-17 18:00:17.205 - INFO     - Module UI Manager configured. - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1E20009A->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:17.272 - DEBUG    - Configure module Framework\Navigation ... - startup.vi - 0 - 
+2024-01-17 18:00:17.337 - DEBUG    - Module Navigation configured - Navigation.lvlib:Main.vi.ACBRProxyCaller.1EA00096->Navigation.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:17.355 - DEBUG    - Configure module Modules\Dummy ... - startup.vi - 0 - 
+2024-01-17 18:00:17.413 - INFO     - Module User Interface configured. - ActorModule.lvlib:Main.vi.ACBRProxyCaller.1F50008D->ActorModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:17.415 - DEBUG    - Configure module Modules\ActorModule ... - startup.vi - 0 - 
+2024-01-17 18:00:17.478 - INFO     - Module StateMachine started. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F90008A->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:17.479 - DEBUG    - Initialization finished - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F90008A->StateMachine.lvlib:Main.vi->StateMachine.lvlib:HSE-State-Machine.lvlib:SM Wait for Transition.vi:2550001 - 0 - 
+2024-01-17 18:00:17.483 - DEBUG    - Configure module Modules\StateMachine ... - startup.vi - 0 - 
+2024-01-17 18:00:17.551 - INFO     - Module DBModule configured. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1FD00087->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:17.556 - DEBUG    - Configure module Modules\DBModule ... - startup.vi - 0 - 
+2024-01-17 18:00:17.622 - ERROR    - DQMH Error Case - DBModule.lvlib:Main.vi.ACBRProxyCaller.1FD00087->DBModule.lvlib:Main.vi - 1003 - Open VI Reference in hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:VI Reference AE.vi->hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:Create.vi:6800001->hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:Get or Create Master Reference.vi:4070001->hse-db.lvlib:DB_CONNECTOR.lvlib:Start Module.vi->DBModule.lvlib:Main.vi->DBModule.lvlib:Main.vi.ACBRProxyCaller.1FD00087<APPEND>VI Path: <b>C:\Users\luisc\OneDrive\Desktop\579-Intelligent-Systems-Term-Project\06_Source\UI\FReVSys_Source\Libraries\hse-db\Source\DB_CONNECTOR\Main.vi</b><DQMH>Event Handling Loop</DQMH>
+2024-01-17 18:00:21.200 - INFO     - Module DBModule stopped. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1FD00087->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:21.276 - DEBUG    - Exit - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F90008A->StateMachine.lvlib:Main.vi->StateMachine.lvlib:HSE-State-Machine.lvlib:SM Wait for Transition.vi:2550001 - 0 - 
+2024-01-17 18:00:21.278 - INFO     - Module StateMachine stopped. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F90008A->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:21.413 - INFO     - Module Navigation stopped - Navigation.lvlib:Main.vi.ACBRProxyCaller.1EA00096->Navigation.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:21.433 - INFO     - Module UI Manager stopped - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1E20009A->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 18:00:21.563 - INFO     - Module Event Manager stopped - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D900029->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:00:21.599 - INFO     - Application stopped. - startup.vi - 0 - 
+2024-01-17 18:05:30.474 - INFO     - Starting FReVSys unreleased (Framework v1.2.0; HSE Libs v3.8.0) - startup.vi - 0 - 
+2024-01-17 18:05:31.171 - DEBUG    - Loading Event Manager... - startup.vi - 0 - 
+2024-01-17 18:05:31.200 - INFO     - Module Event Manager initialised - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D400076->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:05:31.416 - INFO     - Module UI Manager initialised - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1DC0007F->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:31.431 - DEBUG    - Loading UI Manager... - startup.vi - 0 - 
+2024-01-17 18:05:31.631 - DEBUG    - Loading "Navigation"... - startup.vi - 0 - 
+2024-01-17 18:05:31.872 - DEBUG    - Loading "Dummy"... - startup.vi - 0 - 
+2024-01-17 18:05:32.034 - DEBUG    - Loading "ActorModule"... - startup.vi - 0 - 
+2024-01-17 18:05:32.196 - INFO     - Module StateMachine started. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F200090->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.208 - DEBUG    - Loading "StateMachine"... - startup.vi - 0 - 
+2024-01-17 18:05:32.456 - INFO     - Module DBModule started. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1F600093->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.476 - DEBUG    - Loading "DBModule"... - startup.vi - 0 - 
+2024-01-17 18:05:32.623 - DEBUG    - Setting Modules in UI Manager... - startup.vi - 0 - 
+2024-01-17 18:05:32.776 - DEBUG    - Setting Modules in Event Manager... - startup.vi - 0 - 
+2024-01-17 18:05:32.794 - DEBUG    - Loading Menu... - startup.vi - 0 - 
+2024-01-17 18:05:32.837 - INFO     - Module Event Manager configured. - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D400076->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:05:32.844 - DEBUG    - Configure statically loaded modules... - startup.vi - 0 - 
+2024-01-17 18:05:32.894 - INFO     - Module UI Manager configured. - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1DC0007F->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.923 - DEBUG    - Configure module Framework\Navigation ... - startup.vi - 0 - 
+2024-01-17 18:05:32.925 - DEBUG    - Module Navigation configured - Navigation.lvlib:Main.vi.ACBRProxyCaller.1E300084->Navigation.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.966 - DEBUG    - Configure module Modules\Dummy ... - startup.vi - 0 - 
+2024-01-17 18:05:32.979 - DEBUG    - Configure module Modules\ActorModule ... - startup.vi - 0 - 
+2024-01-17 18:05:32.980 - INFO     - Module User Interface configured. - ActorModule.lvlib:Main.vi.ACBRProxyCaller.1EE0008D->ActorModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.988 - INFO     - Module StateMachine started. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F200090->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:32.989 - DEBUG    - Initialization finished - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F200090->StateMachine.lvlib:Main.vi->StateMachine.lvlib:HSE-State-Machine.lvlib:SM Wait for Transition.vi:2550001 - 0 - 
+2024-01-17 18:05:33.003 - DEBUG    - Configure module Modules\StateMachine ... - startup.vi - 0 - 
+2024-01-17 18:05:33.009 - INFO     - Module DBModule configured. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1F600093->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:33.023 - DEBUG    - Configure module Modules\DBModule ... - startup.vi - 0 - 
+2024-01-17 18:05:33.041 - ERROR    - DQMH Error Case - DBModule.lvlib:Main.vi.ACBRProxyCaller.1F600093->DBModule.lvlib:Main.vi - 1003 - Open VI Reference in hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:VI Reference AE.vi->hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:Create.vi:6800001->hse-db.lvlib:DB_CONNECTOR.lvlib:VI Reference Management.lvlib:Get or Create Master Reference.vi:4070001->hse-db.lvlib:DB_CONNECTOR.lvlib:Start Module.vi->DBModule.lvlib:Main.vi->DBModule.lvlib:Main.vi.ACBRProxyCaller.1F600093<APPEND>VI Path: <b>C:\Users\luisc\OneDrive\Desktop\579-Intelligent-Systems-Term-Project\06_Source\UI\FReVSys_Source\Libraries\hse-db\Source\DB_CONNECTOR\Main.vi</b><DQMH>Event Handling Loop</DQMH>
+2024-01-17 18:05:35.881 - INFO     - Module DBModule stopped. - DBModule.lvlib:Main.vi.ACBRProxyCaller.1F600093->DBModule.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:35.957 - DEBUG    - Exit - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F200090->StateMachine.lvlib:Main.vi->StateMachine.lvlib:HSE-State-Machine.lvlib:SM Wait for Transition.vi:2550001 - 0 - 
+2024-01-17 18:05:35.964 - INFO     - Module StateMachine stopped. - StateMachine.lvlib:Main.vi.ACBRProxyCaller.1F200090->StateMachine.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:36.137 - INFO     - Module Navigation stopped - Navigation.lvlib:Main.vi.ACBRProxyCaller.1E300084->Navigation.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:36.171 - INFO     - Module UI Manager stopped - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1DC0007F->UI Manager.lvlib:Main.vi - 0 - 
+2024-01-17 18:05:36.327 - INFO     - Module Event Manager stopped - Event Manager.lvlib:Main.vi.ACBRProxyCaller.1D400076->Event Manager.lvlib:Main.vi:4140001 - 0 - 
+2024-01-17 18:05:36.360 - INFO     - Application stopped. - startup.vi - 0 - 

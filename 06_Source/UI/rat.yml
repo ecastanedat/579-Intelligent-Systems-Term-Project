@@ -1,0 +1,30 @@
+# ################################################################################
+# HSE RELEASE AUTOMATION TOOLS - Project-Specific Variables
+# ################################################################################
+
+variables: 
+    # variables for project/buildspec "EXE"
+    EXE_PROJECT: "/TEMPLATE_Source/TEMPLATE.lvproj"
+    EXE_PROJECT_SRCDIR: "TEMPLATE_Source/"
+    EXE_PROJECT_TARGET: "My Computer"
+    EXE_PROJECT_BUILDSPEC: "hse_executable"
+    EXE_COMMON_VIPCONFIGS: "hse-application-template.vipc"
+    EXE_INIT_DEPENDENCIES: ""
+    EXE_VLDR_PUBLISHFAIL: "FALSE"
+    EXE_VLDR_EMAILRESULTS: "TRUE"
+    EXE_NLZR_CONFIG: "rat-analyzr.cfg"
+    EXE_NLZR_ONLYCHANGES: "TRUE"
+    EXE_NLZR_PUBLISHFAIL: "FALSE"
+    EXE_NLZR_EMAILRESULTS: "TRUE"
+    EXE_TSTR_PUBLISHFAIL: "FALSE"
+    EXE_TSTR_EMAILRESULTS: "TRUE"
+    EXE_BLDR_UPDATEVIDESC: "FALSE"
+    EXE_BLDR_UPDATEBDCONST: "UI-FRAMEWORK"
+    EXE_BLDR_COMPANY: "HAMPEL SOFTWARE ENGINEERING"
+    EXE_BLDR_WEBSITE: "www.hampel-soft.com"
+    EXE_PKGR_TEMPLATE: ""
+    EXE_DPLR_DESTINATION: "\\COMP-NAS\\web\\releases"
+    EXE_DPLR_NAMESPACE: ""
+    EXE_DOCR_AD_LIBTOKENS: "DB_CONNECTOR; GenNet-Server; GenNet-Client"
+    EXE_DOCR_SM_DRAW_EXCEPT: "FALSE"
+    EXE_DOCR_SM_DRAW_EXIT: "TRUE"

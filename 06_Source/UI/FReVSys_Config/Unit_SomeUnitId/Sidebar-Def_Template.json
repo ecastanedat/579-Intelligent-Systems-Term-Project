@@ -1,0 +1,75 @@
+{
+	"top": [
+		{
+			"name": "btn_Dummy",
+			"caption": "Dummy Module",
+			"tooltip": "Show the Dummy module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\Dummy",
+			"display_scenario": "Managed",
+			"sub": []
+		},
+		{
+			"name": "btn_Actor",
+			"caption": "Actor Module",
+			"tooltip": "Show the Actor module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\ActorModule",
+			"display_scenario": "Managed",
+			"sub": [
+				{
+					"name": "lb_actorstate",
+					"tooltip": "Actor State",
+					"enabled_state": "Disabled",
+					"content": [
+						"Display Value 1/3",
+						"Display Value 2/3",
+						"Display Value 3/3"
+					],
+					"retain value":true
+				}				
+			]
+		},
+		{
+			"name": "btn_Action",
+			"caption": "Actor Module Actions",
+			"tooltip": "Trigger actions in Actor Module",
+			"enabled_state": "Enabled",
+			"action": "triggerAction",
+			"display_scenario": "None",
+            "sub": [
+                {
+					"name": "lb_actoractions",
+					"tooltip": "Available Actions",
+					"enabled_state": "Enabled",
+					"content": [
+						"Reset Timer",
+						"Enable Timeout Event",
+						"Disable Timeout Event",
+						"Register for Broadcasts",
+						"Unregister from Broadcasts"
+					],
+					"retain value":false
+				}
+            ]
+		},
+		{
+			"name": "btn_StateMachine",
+			"caption": "State Machine",
+			"tooltip": "Show the State Machine module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\StateMachine",
+			"display_scenario": "Managed",
+			"sub": []
+		},
+		{
+			"name": "btn_DBModule",
+			"caption": "DB Module",
+			"tooltip": "Show the DB Module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\DBModule",
+			"display_scenario": "Managed",
+			"sub": []
+		}
+	]
+}

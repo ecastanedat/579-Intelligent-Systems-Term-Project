@@ -1,2 +1,2 @@
 # 579-Intelligent-Systems-Term-Project
-Facial recognition system for vehicle's interior customization.
+In this project, we will design and develop a facial recognition system by adapting and integrating a pre-trained MobileNet model using TensorFlow in Google Colab. Our system will recognize users before they enter their vehicles and then communicate with the vehicle's CAN bus to adjust interior settings (such as seat position, cabin temperature, and steering wheel position) according to the recognized user's preferences.
