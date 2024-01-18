@@ -50,8 +50,9 @@
 					<Item Name="Test Navigation API.vi" Type="VI" URL="../Framework/Navigation/Test Navigation API.vi"/>
 				</Item>
 				<Item Name="UI Manager" Type="Folder">
-					<Item Name="Test UI Manager API.vi" Type="VI" URL="../Framework/UI Manager/Test UI Manager API.vi"/>
+					<Property Name="NI.SortType" Type="Int">3</Property>
 					<Item Name="UI Manager.lvlib" Type="Library" URL="../Framework/UI Manager/UI Manager.lvlib"/>
+					<Item Name="Test UI Manager API.vi" Type="VI" URL="../Framework/UI Manager/Test UI Manager API.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Libraries" Type="Folder">
@@ -122,6 +123,10 @@
 				<Item Name="ExampleClone" Type="Folder">
 					<Item Name="ExampleClone.lvlib" Type="Library" URL="../Modules/ExampleClone/ExampleClone.lvlib"/>
 					<Item Name="Test ExampleClone API.vi" Type="VI" URL="../Modules/ExampleClone/Test ExampleClone API.vi"/>
+				</Item>
+				<Item Name="Settings" Type="Folder">
+					<Item Name="Settings.lvlib" Type="Library" URL="../Modules/Settings/Settings.lvlib"/>
+					<Item Name="Test Settings API.vi" Type="VI" URL="../Modules/Settings/Test Settings API.vi"/>
 				</Item>
 				<Item Name="StateMachine" Type="Folder">
 					<Item Name="StateMachine.lvlib" Type="Library" URL="../Modules/StateMachine/StateMachine.lvlib"/>
@@ -422,7 +427,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguage[1]" Type="Str">German</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">75</Property>
+				<Property Name="Bld_version.build" Type="Int">79</Property>
 				<Property Name="Destination[0].destName" Type="Str">FReVSys.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/FReVSys.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
