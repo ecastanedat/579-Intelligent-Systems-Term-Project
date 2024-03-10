@@ -39,17 +39,16 @@ while True:
         # Convert the cropped face to grayscale
         face_gray = cv2.cvtColor(face_resized, cv2.COLOR_BGR2GRAY)
 
-        # Prepare the image for the model
-        face_gray = cv2.resize(face_gray, (48, 48))
-        face_gray = img_to_array(face_gray)
-        face_gray = np.expand_dims(face_gray, axis=0)
-        face_gray = preprocess_input(face_gray)
+        # Normalize pixel values to range between 0 and 1
+        normalized = face_gray / 255.0
 
-        cv2.imshow('Facial Emotion Recognition', face_gray)
+        # Prepare the image for the model
+        normalized = np.expand_dims(normalized, axis=-1)
+        normalized = np.expand_dims(normalized, axis=0)
 
         # Use the model to predict the emotion
         emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
-        prediction = model.predict(face_gray)
+        prediction = model.predict(normalized, verbose=0)
         predicted_emotion = emotion_labels[np.argmax(prediction)]
 
         # Display the captured frame with the detected emotion
@@ -57,7 +56,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
     # Show the captured frame
-    #cv2.imshow('Facial Emotion Recognition', frame)
+    cv2.imshow('Facial Emotion Recognition', frame)
 
     # Check for 'q' key press to exit the loop
     if cv2.waitKey(1) & 0xFF == ord('q'):
