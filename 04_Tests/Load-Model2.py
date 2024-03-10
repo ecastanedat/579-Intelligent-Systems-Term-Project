@@ -6,7 +6,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.mobilenet_v2 import preprocess_input
 
 # Load pre-trained Facial Emotion Recognition model
-model = load_model('C:/Projects/579-Intelligent-Systems-Term-Project/07_Sandbox/modelV4.h5')  # Path to your model file
+model = load_model('C:/Projects/579-Intelligent-Systems-Term-Project/07_Sandbox/modelv9_Angry_Sad_Neutral.h5')  # Path to your model file
 
 # Define a function to detect faces in the image using Haar Cascade classifier
 def detect_faces(image):
@@ -47,7 +47,8 @@ while True:
         normalized = np.expand_dims(normalized, axis=0)
 
         # Use the model to predict the emotion
-        emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
+        # emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
+        emotion_labels = ['Angry', 'Sad', 'Neutral']
         prediction = model.predict(normalized, verbose=0)
         predicted_emotion = emotion_labels[np.argmax(prediction)]
 
