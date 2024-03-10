@@ -6,7 +6,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.mobilenet_v2 import preprocess_input
 
 # Load pre-trained Facial Emotion Recognition model
-model = load_model('C:/Projects/579-Intelligent-Systems-Term-Project/07_Sandbox/modelv9_Angry_Sad_Neutral.h5')  # Path to your model file
+model = load_model('C:/Projects/579-Intelligent-Systems-Term-Project/06_Source/Python/Models/modelv9_Angry_Sad_Neutral.h5')  # Path to your model file
 
 # Define a function to detect faces in the image using Haar Cascade classifier
 def detect_faces(image):
