@@ -408,7 +408,7 @@
 				<Property Name="TgtF_fileDescription" Type="Str">HAMPEL SOFTWARE ENGINEERING v2.6.0 (2023-12-19 10:54)</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 HAMPEL SOFTWARE ENGINEERING</Property>
 			</Item>
-			<Item Name="hse_executable" Type="EXE">
+			<Item Name="FReVSys" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C62E524F-EFDD-4D57-929E-89B210324BDC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D07E795C-174D-40FD-B76C-25073797ABFB}</Property>
@@ -416,7 +416,7 @@
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6508693F-B506-4EFC-9356-CF3B7974286B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">hse_executable</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FReVSys</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -428,7 +428,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguage[1]" Type="Str">German</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">80</Property>
 				<Property Name="Destination[0].destName" Type="Str">FReVSys.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/FReVSys.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -437,7 +437,7 @@
 				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/FReVSys_Config/Common/hampel-soft.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{773FC420-8622-4EF5-9D32-8AAEF620B330}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F75056A4-FFA6-4750-B750-8F92258DC363}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FReVSys_Source/startup.vi</Property>
@@ -469,10 +469,10 @@
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">HAMPEL SOFTWARE ENGINEERING</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">hse_executable 20170905-0922 (2017-09-05 09:22)</Property>
-				<Property Name="TgtF_internalName" Type="Str">hse_executable</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FReVSys 20170905-0922 (2017-09-05 09:22)</Property>
+				<Property Name="TgtF_internalName" Type="Str">FReVSys</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 HAMPEL SOFTWARE ENGINEERING</Property>
-				<Property Name="TgtF_productName" Type="Str">hse_executable</Property>
+				<Property Name="TgtF_productName" Type="Str">FReVSys</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{480CFC3C-86A8-4685-83E5-A7AE8F318A15}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FReVSys.exe</Property>
 			</Item>

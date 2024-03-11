@@ -1050,3 +1050,28 @@
 2024-03-10 20:41:52.379 - INFO     - Module UI Manager stopped - UI Manager.lvlib:Main.vi.ACBRProxyCaller.CAD0005D->UI Manager.lvlib:Main.vi - 0 -  |  | 
 2024-03-10 20:41:52.513 - INFO     - Module Event Manager stopped - Event Manager.lvlib:Main.vi.ACBRProxyCaller.CA500002->Event Manager.lvlib:Main.vi:4140001 - 0 -  |  | 
 2024-03-10 20:41:52.536 - INFO     - Application stopped. - startup.vi - 0 -  |  | 
+2024-03-10 20:58:42.299 - INFO     - Starting FReVSys unreleased (Framework v1.2.0; HSE Libs v3.8.0) - startup.vi - 0 -  |  | 
+2024-03-10 20:58:42.863 - DEBUG    - Loading Event Manager... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:42.865 - INFO     - Module Event Manager initialised - Event Manager.lvlib:Main.vi.ACBRProxyCaller.10F00008->Event Manager.lvlib:Main.vi:4140001 - 0 -  |  | 
+2024-03-10 20:58:42.921 - INFO     - Module UI Manager initialised - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1170000F->UI Manager.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:42.923 - DEBUG    - Loading UI Manager... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:42.983 - DEBUG    - Loading "Navigation"... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.051 - DEBUG    - Loading "Dummy"... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.073 - INFO     - Module Settings started. - Settings.lvlib:Main.vi.ACBRProxyCaller.1290001D->Settings.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:43.076 - DEBUG    - Loading "Settings"... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.093 - DEBUG    - Setting Modules in UI Manager... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.107 - DEBUG    - Setting Modules in Event Manager... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.128 - DEBUG    - Loading Menu... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.147 - INFO     - Module Event Manager configured. - Event Manager.lvlib:Main.vi.ACBRProxyCaller.10F00008->Event Manager.lvlib:Main.vi:4140001 - 0 -  |  | 
+2024-03-10 20:58:43.149 - DEBUG    - Configure statically loaded modules... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.161 - INFO     - Module UI Manager configured. - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1170000F->UI Manager.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:43.167 - DEBUG    - Module Navigation configured - Navigation.lvlib:Main.vi.ACBRProxyCaller.11E00014->Navigation.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:43.169 - DEBUG    - Configure module Framework\Navigation ... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.172 - DEBUG    - Configure module Modules\Dummy ... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:43.176 - INFO     - Module Settings configured. - Settings.lvlib:Main.vi.ACBRProxyCaller.1290001D->Settings.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:43.178 - DEBUG    - Configure module Modules\Settings ... - startup.vi - 0 -  |  | 
+2024-03-10 20:58:49.757 - INFO     - Module Settings stopped. - Settings.lvlib:Main.vi.ACBRProxyCaller.1290001D->Settings.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:49.794 - INFO     - Module Navigation stopped - Navigation.lvlib:Main.vi.ACBRProxyCaller.11E00014->Navigation.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:49.805 - INFO     - Module UI Manager stopped - UI Manager.lvlib:Main.vi.ACBRProxyCaller.1170000F->UI Manager.lvlib:Main.vi - 0 -  |  | 
+2024-03-10 20:58:49.831 - INFO     - Module Event Manager stopped - Event Manager.lvlib:Main.vi.ACBRProxyCaller.10F00008->Event Manager.lvlib:Main.vi:4140001 - 0 -  |  | 
+2024-03-10 20:58:49.847 - INFO     - Application stopped. - startup.vi - 0 -  |  | 

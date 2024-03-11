@@ -82,10 +82,7 @@ def detect_faces(image):
 # *  Return               :  predicted emotion
 # *  Critical/explanation :  No
 # **************************************************************
-def predict(model_path: str, output_img_path: str):
-
-    # Load pre-trained Facial Emotion Recognition model
-    model = load_model(model_path)
+def predict(model, model_path: str, output_img_path: str):
 
     # Open camera reference
     cap = cv2.VideoCapture(0)  # Use the default webcam
@@ -128,8 +125,11 @@ def main():
     # Globals
     model_path = 'C:/Projects/579-Intelligent-Systems-Term-Project/06_Source/Python/Models/modelv9_Angry_Sad_Neutral.h5'
     prediction_img_output_path = 'C:/Projects/579-Intelligent-Systems-Term-Project/06_Source/Python/Dependencies/captured_image.jpg'
-        
-    emotion = predict(model_path, prediction_img_output_path)
+    
+    # Load pre-trained Facial Emotion Recognition model
+    model = load_model(model_path)
+
+    emotion = predict(model, model_path, prediction_img_output_path)
     print(emotion)
 
 if __name__=="__main__":
