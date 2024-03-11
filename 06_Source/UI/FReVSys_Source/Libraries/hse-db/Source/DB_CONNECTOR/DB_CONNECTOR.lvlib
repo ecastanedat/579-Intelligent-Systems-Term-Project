@@ -1,9 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
+<Library LVVersion="22308000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">hse-db.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../hse-db.lvlib</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)C!!!*Q(C=\&gt;7^&lt;2N"%-8R&gt;Y9#J_R!9!OP"&lt;&lt;!&amp;C:XR&amp;1B7ZA#H,!$AYE+G"&lt;9!FOA`\M=#)*A_!,,BC&amp;I4UPSXOX(DXP,ET4,6_F"N\7S`,,=PNU,VW?&lt;NQV@8_@M`P+\[X`1@W8_&amp;@^+U7@Z,"_\0+X_#0\[\W$2?""2CZL5I&amp;JDWFO2&amp;XG2&amp;XG2&amp;XG3*XG3*XG3*XG1"XG1"XG1"\H*47ZSEZP=Z0-A&amp;\H)21[JG,S9K"CU'+"I$%8&amp;3_%J0)7H](#KQF.Y#E`B+4QU5?%J0)7H]"1?OKHQ&amp;*\#5XA+$U..3=W$(%`B98AFHM34?"*0YG&amp;+*:Y%E%S7$*Q-!E0*R?2$YEE]C9?03DS**`%EHM4$:37?R*.Y%E`CI=N=F:S;=:$D92A&amp;HM!4?!*0Y'&amp;I":\!%XA#4_"B/A7?Q"-AAAG$Q3%I["1U#%Y#4_$B49%H]!3?Q".YO$4P5-S6':JRE/-R(O-R(O-R(I;1]2C0]2C0]4#MD-&gt;YD-&gt;YD)?J:$T'9TQ'9C:F?JH"4%@4S!4'Q^`=,:ZX+;@%]Z"[][IXJ8KTK4?2?H/I&lt;\L[:KJPEHLRV9OK8CTV)KC`H"KNRKAH58=?$88F^5)^5U`5)`6!X6.XV#VV-\K_=]0L^;L,Z;,T_;T4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:P0S'(DE?(EAX*^,4VK7(]`,]PW2WO`D@/4`Y0`T@`"MV"?^HI-V_AF:/E!&gt;!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)C!!!*Q(C=\&gt;7^&lt;2N"%-8R&gt;Y9#J_R!9!OP"&lt;&lt;!&amp;C:XR&amp;1B7ZA#H,!$AYE+G"&lt;9!FOA`\M=#)*A_!,,BC&amp;I4UPSXOX(DXP,ET4,6_F"N\7S`,,=PNU,VW?&lt;NQV@8_@M`P+\[X`1@W8_&amp;@^+U7@Z,"_\0+X_#0\[\W$2?""2CZL5I&amp;JDWFO2&amp;XG2&amp;XG2&amp;XG3*XG3*XG3*XG1"XG1"XG1"\H*47ZSEZP=Z0-A&amp;\H)21[JG,S9K"CU'+"I$%8&amp;3_%J0)7H](#KQF.Y#E`B+4QU5?%J0)7H]"1?OKHQ&amp;*\#5XA+$U..3=W$(%`B98AFHM34?"*0YG&amp;+*:Y%E%S7$*Q-!E0*R?2$YEE]C9?03DS**`%EHM4$:37?R*.Y%E`CI=N=F:S;=:$D92A&amp;HM!4?!*0Y'&amp;I":\!%XA#4_"B/A7?Q"-AAAG$Q3%I["1U#%Y#4_$B49%H]!3?Q".YO$4P5-S6':JRE/-R(O-R(O-R(I;1]2C0]2C0]4#MD-&gt;YD-&gt;YD)?J:$T'9TQ'9C:F?JH"4%@4S!4'Q^`=,:ZX+;@%]Z"[][IXJ8KTK4?2?H/I&lt;\L[:KJPEHLRV9OK8CTV)KC`H"KNRKAH58=?$88F^5)^5U`5)`6!X6.XV#VV-\K_=]0L^;L,Z;,T_;T4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:P0S'(DE?(EAX*^,4VK7(]`,]PW2WO`D@/4`Y0`T@`"MV"?^HI-V_AF:/E!&gt;!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>

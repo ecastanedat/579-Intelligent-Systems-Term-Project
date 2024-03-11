@@ -1,0 +1,31 @@
+{
+	"top": [
+		{
+			"name": "btn_Dummy",
+			"caption": "Dummy Module",
+			"tooltip": "Show the Dummy module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\Dummy",
+			"display_scenario": "Managed",
+			"sub": []
+		},
+		{
+			"name": "btn_Settings",
+			"caption": "Settings Module",
+			"tooltip": "Show the Settings Module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\Settings",
+			"display_scenario": "Managed",
+			"sub": []
+		},
+		{
+			"name": "btn_MainPanel",
+			"caption": "Main Panel Module",
+			"tooltip": "Show the Main Panel Module",
+			"enabled_state": "Enabled",
+			"action": "Modules\\MainPanel",
+			"display_scenario": "Managed",
+			"sub": []
+		}
+	]
+}

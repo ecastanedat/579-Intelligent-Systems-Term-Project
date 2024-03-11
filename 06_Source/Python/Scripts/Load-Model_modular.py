@@ -132,5 +132,7 @@ def main():
     emotion = predict(model, model_path, prediction_img_output_path)
     print(emotion)
 
+    return emotion
+
 if __name__=="__main__":
     main()

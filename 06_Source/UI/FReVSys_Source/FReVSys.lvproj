@@ -124,6 +124,10 @@
 					<Item Name="ExampleClone.lvlib" Type="Library" URL="../Modules/ExampleClone/ExampleClone.lvlib"/>
 					<Item Name="Test ExampleClone API.vi" Type="VI" URL="../Modules/ExampleClone/Test ExampleClone API.vi"/>
 				</Item>
+				<Item Name="MainPanel" Type="Folder">
+					<Item Name="MainPanel.lvlib" Type="Library" URL="../Modules/MainPanel/MainPanel.lvlib"/>
+					<Item Name="Test Main_panel API.vi" Type="VI" URL="../Modules/MainPanel/Test Main_panel API.vi"/>
+				</Item>
 				<Item Name="Settings" Type="Folder">
 					<Item Name="Settings.lvlib" Type="Library" URL="../Modules/Settings/Settings.lvlib"/>
 					<Item Name="Test Settings API.vi" Type="VI" URL="../Modules/Settings/Test Settings API.vi"/>
